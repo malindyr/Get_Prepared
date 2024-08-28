@@ -1,0 +1,14 @@
+C:\Users\ferma\OneDrive\Desktop\Get_Prepared\BossFight__(Inheritance_with_notes)\bin\Debug\net8.0\BossFight__(Inheritance_with_notes).exe
+C:\Users\ferma\OneDrive\Desktop\Get_Prepared\BossFight__(Inheritance_with_notes)\bin\Debug\net8.0\BossFight__(Inheritance_with_notes).deps.json
+C:\Users\ferma\OneDrive\Desktop\Get_Prepared\BossFight__(Inheritance_with_notes)\bin\Debug\net8.0\BossFight__(Inheritance_with_notes).runtimeconfig.json
+C:\Users\ferma\OneDrive\Desktop\Get_Prepared\BossFight__(Inheritance_with_notes)\bin\Debug\net8.0\BossFight__(Inheritance_with_notes).dll
+C:\Users\ferma\OneDrive\Desktop\Get_Prepared\BossFight__(Inheritance_with_notes)\bin\Debug\net8.0\BossFight__(Inheritance_with_notes).pdb
+C:\Users\ferma\OneDrive\Desktop\Get_Prepared\BossFight__(Inheritance_with_notes)\obj\Debug\net8.0\BossFight__(Inheritance_with_notes).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ferma\OneDrive\Desktop\Get_Prepared\BossFight__(Inheritance_with_notes)\obj\Debug\net8.0\BossFight__(Inheritance_with_notes).AssemblyInfoInputs.cache
+C:\Users\ferma\OneDrive\Desktop\Get_Prepared\BossFight__(Inheritance_with_notes)\obj\Debug\net8.0\BossFight__(Inheritance_with_notes).AssemblyInfo.cs
+C:\Users\ferma\OneDrive\Desktop\Get_Prepared\BossFight__(Inheritance_with_notes)\obj\Debug\net8.0\BossFight__(Inheritance_with_notes).csproj.CoreCompileInputs.cache
+C:\Users\ferma\OneDrive\Desktop\Get_Prepared\BossFight__(Inheritance_with_notes)\obj\Debug\net8.0\BossFight__(Inheritance_with_notes).dll
+C:\Users\ferma\OneDrive\Desktop\Get_Prepared\BossFight__(Inheritance_with_notes)\obj\Debug\net8.0\refint\BossFight__(Inheritance_with_notes).dll
+C:\Users\ferma\OneDrive\Desktop\Get_Prepared\BossFight__(Inheritance_with_notes)\obj\Debug\net8.0\BossFight__(Inheritance_with_notes).pdb
+C:\Users\ferma\OneDrive\Desktop\Get_Prepared\BossFight__(Inheritance_with_notes)\obj\Debug\net8.0\BossFight__(Inheritance_with_notes).genruntimeconfig.cache
+C:\Users\ferma\OneDrive\Desktop\Get_Prepared\BossFight__(Inheritance_with_notes)\obj\Debug\net8.0\ref\BossFight__(Inheritance_with_notes).dll
