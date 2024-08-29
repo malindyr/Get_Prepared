@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BossFight__(Inheritance_with_notes)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f9031bcc2758320a76d716d9181e17fab1c570fb")]
 [assembly: System.Reflection.AssemblyProductAttribute("BossFight__(Inheritance_with_notes)")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BossFight__(Inheritance_with_notes)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
