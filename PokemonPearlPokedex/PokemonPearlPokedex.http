@@ -1,0 +1,6 @@
+@PokemonPearlPokedex_HostAddress = http://localhost:5150
+
+GET {{PokemonPearlPokedex_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

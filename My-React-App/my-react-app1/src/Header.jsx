@@ -6,11 +6,12 @@ function Header(){
             <nav>
                 <ul>
                     <li><a href="#">home</a></li>
-                    <li>about</li>
-                    <li>services</li>
-                    <li>contact</li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#">contact</a></li>
                 </ul>
             </nav>
+            <hr></hr>
         </header>
     );
 }
