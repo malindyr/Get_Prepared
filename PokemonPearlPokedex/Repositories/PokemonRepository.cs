@@ -25,22 +25,69 @@ namespace PokemonPearlPokedex.Repositories
 
         public Pokemon GetPokemonByName(string name)
         {
-            return _context.Pokemons.Where(p => p.Name == name).FirstOrDefault();
+            return _context.Pokemons
+                .Where(p => p.Name.ToLower() == name.ToLower())
+                .FirstOrDefault();
         }
-
-        public ICollection<Pokemon> GetPokemonsByType(string type)
-        {
-            return _context.Pokemons.Where(p => p.Type == type).OrderBy(p=> p.Number).ToList();
-        }
-
         public Pokemon GetPokemonByNumber(int pokeNumber)
         {
             return _context.Pokemons.Where(p => p.Number == pokeNumber).FirstOrDefault();
         }
 
-        public bool PokemonExists(int pokeId)
+        public ICollection<Pokemon> GetPokemonsByType(string type)
+        {
+            return _context.Pokemons
+                .Where(p => p.Type.ToLower() == type.ToLower())
+                .OrderBy(p => p.Number)
+                .ToList();
+        }
+
+
+
+        //confirmation
+        public bool PokemonIdExists(int pokeId)
         {
             return _context.Pokemons.Any(p => p.Id == pokeId);
+        }
+        public bool PokemonNumberExists(int pokeNumber)
+        {
+            return _context.Pokemons.Any(p => p.Number == pokeNumber);
+        }
+
+        public bool PokemonNameExists(string pokeName)
+        {
+            return _context.Pokemons
+                .Any(p => p.Name.ToLower() == pokeName.ToLower());
+        }
+
+        public bool PokemonTypeExists(string pokeType)
+        {
+            return _context.Pokemons
+                .Any(p => p.Type.ToLower() == pokeType.ToLower());
+        }
+
+        public bool CreatePokemon(Pokemon pokemon)
+        {
+            _context.Add(pokemon);
+            return Save();
+        }
+
+        public bool UpdatePokemon(Pokemon pokemon)
+        {
+            _context.Update(pokemon);
+            return Save();
+        }
+
+        public bool DeletePokemon(Pokemon pokemon)
+        {
+            _context.Remove(pokemon);
+            return Save();
+        }
+
+        public bool Save()
+        {
+            var saved = _context.SaveChanges();
+            return saved > 0 ? true : false;
         }
     }
 }
