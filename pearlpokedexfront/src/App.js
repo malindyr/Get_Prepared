@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+//import logo from './logo.svg';
+//import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+ 
+}
+fetchData1();
+function fetchData1(){
+
+fetch("https://pokeapi.co/api/v2/pokemon/mewtwo")
+.then(response => {
+    if(!response.ok){
+        throw new Error("could not fetch resource :(");
+    }
+    return response.json();
+})
+.then(data => console.log(data.name))
+.catch(error => console.error(error));
+}
+
+fetchDataFromLocalDb();
+async function fetchDataFromLocalDb(){
+    try{
+        const response = await fetch(`https://localhost:7262/api/Pokemon/Pokemon/Id/1`);
+
+        if(!response.ok){
+            throw new Error("could not fetch resource (async func)")
+        }
+        const data = await response.json();
+        console.log(data.name);
+    }
+    catch(error){
+        console.error(error);
+    }
 }
 
 export default App;

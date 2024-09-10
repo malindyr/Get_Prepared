@@ -16,16 +16,16 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // Configure cors
-//builder.Services.AddCors(options =>
-//{
-//    options.AddPolicy("AllowSpecificOrigin",
-//        policyBuilder =>
-//        {
-//            policyBuilder.WithOrigins("") // local
-//                .AllowAnyMethod()
-//                .AllowAnyHeader();
-//        });
-//});
+builder.Services.AddCors(options =>
+{
+  options.AddPolicy("AllowSpecificOrigin",
+     policyBuilder =>
+        {
+            policyBuilder.WithOrigins("http://localhost:3001") // local
+               .AllowAnyMethod()
+                .AllowAnyHeader();
+        });
+});
 
 builder.Services.AddDbContext<DataContext>(options =>
 {
@@ -60,33 +60,13 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-//app.UseCors("AllowSpecificOrigin");
+app.UseCors("AllowSpecificOrigin");
 
 app.UseAuthorization();
 
 app.MapControllers();
 
 app.Run();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //repository pattern!!!!
 //-where you put database calls
