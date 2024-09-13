@@ -15,7 +15,7 @@ const router = createBrowserRouter(
     <Route path='/' element={<MainLayout />}>
       <Route index element={<HomePage/>}/>
       <Route path='/jobs' element={<JobsPage/>}/>
-      <Route path='/jobs/:id' element={<JobsPage/>}/> {/* : here means it's dynamic*/}
+      <Route path='/jobs/:id' element={<JobPage/>}/> {/* : here means it's dynamic*/}
       <Route path='/*' element={<NotFoundPage/>}/>
     </Route>)
 )
