@@ -1,4 +1,6 @@
 import React from 'react'
+
+//importing Card.jsx
 import Card from './Card'
 
 const HomeCards = () => {
@@ -6,7 +8,11 @@ const HomeCards = () => {
     <section className="py-4">
       <div className="container-xl lg:container m-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 rounded-lg">
-        <Card>         
+
+{/*card from Card.jsx*/}
+        <Card>  
+
+{/* {children} */}       
             <h2 className="text-2xl font-bold">For Developers</h2>
             <p className="mt-2 mb-4">
               Browse our React jobs and start your career today
@@ -18,6 +24,8 @@ const HomeCards = () => {
               Browse Jobs
             </a>
         </Card>
+
+{/*here card.jsx base is overwritten, hence indigo color*/}
         <Card bg='bg-indigo-100'>
         <h2 className="text-2xl font-bold">For Employers</h2>
             <p className="mt-2 mb-4">
@@ -30,6 +38,7 @@ const HomeCards = () => {
               Add Job
             </a>
         </Card>
+
           </div>
         </div>
     </section>
