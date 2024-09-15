@@ -7,7 +7,7 @@ import JobsPage from './pages/JobsPage';
 import NotFoundPage from './pages/NotFoundPage';
 import JobPage, { jobLoader } from './pages/JobPage';
 import AddJobPage from './pages/AddJobPage';
-
+//you can also do toast.error if you want to show an error for some reason
 
 const App = () => {
 
