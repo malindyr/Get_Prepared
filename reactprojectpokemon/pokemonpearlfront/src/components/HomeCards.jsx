@@ -1,5 +1,6 @@
 import React from 'react'
 import Card from './Card'
+import { Link } from 'react-router-dom'
 
 const HomeCards = () => {
   return (
@@ -11,24 +12,24 @@ const HomeCards = () => {
           <p className="mt-2 mb-4">
             Browse through all  4th Gen Pokémon
           </p>
-          <a
-            href="/jobs.html"
+          <Link
+            to="/pokemons"
             className="inline-block bg-black text-white rounded-lg px-4 py-2 hover:bg-gray-700"
           >
             View All Pokémon
-          </a>
+          </Link>
         </Card>
         <Card bg='bg-pearlPink-200'>
         <h2 className="text-2xl font-bold">Missing Pokémon?</h2>
           <p className="mt-2 mb-4">
             Add a Pokémon to the Pokédex! 
           </p>
-          <a
-            href="/add-job.html"
+          <Link
+            href="/add-pokemon"
             className="inline-block bg-pearlPink-900 text-white rounded-lg px-4 py-2 hover:bg-pearlPink-600"
           >
             Add Pokémon
-          </a>
+          </Link>
         </Card>
       </div>
     </div>
