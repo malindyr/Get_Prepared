@@ -1,62 +1,62 @@
 [
     {
-      "Id": 1,
-      "Name": "Piplup",
-      "Number": 393,
-      "Type": "Water",
-      "Height": 0.4,
-      "Weight": 5.4,
-      "Description": "Piplup, the Penguin Pokémon, is a Water-Type Pokémon known for its strong sense of prIde and its ability to learn powerful Water-Type moves like Surf and Hydro Pump.",
-      "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/393.png"
+      "id": 1,
+      "name": "Piplup",
+      "number": 393,
+      "type": "Water",
+      "height": 0.4,
+      "weight": 5.4,
+      "description": "Piplup, the Penguin Pokémon, is a Water-type Pokémon known for its strong sense of pride and its ability to learn powerful Water-type moves like Surf and Hydro Pump.",
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/393.png"
     },
     {
-      "Id": 2,
-      "Name": "Gible",
-      "Number": 443,
-      "Type": "Dragon/Ground",
-      "Height": 0.7,
-      "Weight": 20.5,
-      "Description": "Gible, the Land Shark Pokémon, is a Dragon/Ground-Type Pokémon that evolves into Gabite and then Garchomp. It’s known for its fierce fighting spirit and its ability to use moves like Dragon Claw.",
-      "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/443.png"
+      "id": 2,
+      "name": "Gible",
+      "number": 443,
+      "type": "Dragon/Ground",
+      "height": 0.7,
+      "weight": 20.5,
+      "description": "Gible, the Land Shark Pokémon, is a Dragon/Ground-type Pokémon that evolves into Gabite and then Garchomp. It’s known for its fierce fighting spirit and its ability to use moves like Dragon Claw.",
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/443.png"
     },
     {
-      "Id": 3,
-      "Name": "Luxray",
-      "Number": 405,
-      "Type": "Electric",
-      "Height": 1.4,
-      "Weight": 42.0,
-      "Description": "Luxray, the Gleam Eyes Pokémon, is an Electric-Type Pokémon with the ability to see through objects and track its prey. It’s known for its powerful Electric-Type attacks like Thunderbolt and Thunder.",
-      "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/405.png"
+      "id": 3,
+      "name": "Luxray",
+      "number": 405,
+      "type": "Electric",
+      "height": 1.4,
+      "weight": 42.0,
+      "description": "Luxray, the Gleam Eyes Pokémon, is an Electric-type Pokémon with the ability to see through objects and track its prey. It’s known for its powerful Electric-type attacks like Thunderbolt and Thunder.",
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/405.png"
     },
     {
-      "Id": 4,
-      "Name": "BIdoof",
-      "Number": 399,
-      "Type": "Normal",
-      "Height": 0.6,
-      "Weight": 20.0,
-      "Description": "BIdoof, the Plump Mouse Pokémon, is a Normal-Type Pokémon known for its hardworking nature. It’s often seen using its large teeth to build dams and chew through various materials.",
-      "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/399.png"
+      "id": 4,
+      "name": "Bidoof",
+      "number": 399,
+      "type": "Normal",
+      "height": 0.6,
+      "weight": 20.0,
+      "description": "Bidoof, the Plump Mouse Pokémon, is a Normal-type Pokémon known for its hardworking nature. It’s often seen using its large teeth to build dams and chew through various materials.",
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/399.png"
     },
     {
-      "Id": 5,
-      "Name": "Shinx",
-      "Number": 403,
-      "Type": "Electric",
-      "Height": 0.5,
-      "Weight": 9.5,
-      "Description": "Shinx, the Flash Pokémon, is an Electric-Type Pokémon known for its ability to generate electricity from its body. It’s often seen sparking with static electricity and has a strong sense of curiosity.",
-      "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/403.png"
+      "id": 5,
+      "name": "Shinx",
+      "number": 403,
+      "type": "Electric",
+      "height": 0.5,
+      "weight": 9.5,
+      "description": "Shinx, the Flash Pokémon, is an Electric-type Pokémon known for its ability to generate electricity from its body. It’s often seen sparking with static electricity and has a strong sense of curiosity.",
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/403.png"
     },
     {
-      "Id": 6,
-      "Name": "Chimchar",
-      "Number": 390,
-      "Type": "Fire",
-      "Height": 0.5,
-      "Weight": 6.2,
-      "Description": "Chimchar, the Chimp Pokémon, is a Fire-Type Pokémon known for its fiery personality and ability to generate flames from its rear. It’s often seen climbing trees and using its fire moves to battle.",
-      "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/390.png"
+      "id": 6,
+      "name": "Chimchar",
+      "number": 390,
+      "type": "Fire",
+      "height": 0.5,
+      "weight": 6.2,
+      "description": "Chimchar, the Chimp Pokémon, is a Fire-type Pokémon known for its fiery personality and ability to generate flames from its rear. It’s often seen climbing trees and using its fire moves to battle.",
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/390.png"
     }
   ]

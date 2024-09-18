@@ -25,7 +25,7 @@ const HomeCards = () => {
             Add a Pokémon to the Pokédex! 
           </p>
           <Link
-            href="/add-pokemon"
+            to="/add-pokemon"
             className="inline-block bg-pearlPink-900 text-white rounded-lg px-4 py-2 hover:bg-pearlPink-600"
           >
             Add Pokémon
