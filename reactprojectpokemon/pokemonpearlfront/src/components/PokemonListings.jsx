@@ -1,7 +1,6 @@
 import React from 'react'
 import PokemonListing from './PokemonListing'
 import {useState, useEffect} from 'react'; 
-import { TbUrgent } from 'react-icons/tb';
 
 //jobs
 
@@ -30,8 +29,8 @@ const PokemonListings = ({isHome = false}) => {
   return (
     <section className="bg-pearlPink-100 px-4 py-10">
     <div className="container-xl lg:container m-auto">
-      <h2 className="text-3xl font-bold text-pearlPink-500 mb-6 text-center">
-        {isHome ? 'Discover Pokémon' : 'Pokémon Pearl -- Generation IV Pokémon'}
+      <h2 className="text-4xl font-bold text-pearlPink-1000 mb-6 text-center">
+        {isHome ? 'Discover Pokémon' : 'Pokémon Pearl - Generation IV Pokémon'}
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {loading ? (<h2>Loading...</h2>) :

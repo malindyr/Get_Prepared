@@ -45,7 +45,7 @@ const EditPokemonPage = ({updatePokemonSubmit}) => {
         className="bg-white px-6 py-8 mb-4 shadow-md rounded-md border m-4 md:m-0"
       >
         <form onSubmit={submitForm}>
-          <h2 className="text-3xl text-center font-semibold mb-6">Add Pokémon</h2>
+          <h2 className="text-3xl text-center font-semibold mb-6">Update Pokémon</h2>
 
           <div className="mb-4">
             <label htmlFor="name" className="block text-gray-700 font-bold mb-2"
