@@ -1,47 +1,46 @@
 import { useState, useEffect } from "react";
 import React from 'react'
-import Names from "./Names";
 
 
 const Example = () => {
 
-    const [inputA, setInputA] = useState('');
-    const [inputB, setInputB] = useState('');
-    const [namesA, setNamesA] = useState([])
+    const [taskInput, setTasksInput] = useState('');
+    const [tasks, setTasks] = useState([])
 
-    const handleChange = (e) => {
-        setInputA(e.target.value);
-    }
 
     const onSubmit = (e) => {
         e.preventDefault();
-        setNamesA([...namesA, inputB])
-        
+
+        const newTask = {
+            id: Date.now(),
+            name: taskInput,
+            completed: false,
+        }
+        setTasks([...tasks, newTask])
+        setTasksInput('');       
     }
 
     useEffect(() => {
-        console.log(namesA); // Logs the updated array after state changes
-      }, [namesA]);
-
+        console.log(tasks); // Logs the updated array after state changes
+    }, [tasks]);
+      
 
   return (
     <>
-        <input type="text" 
-            onChange={handleChange}/>
 
     <form onSubmit={onSubmit}>
         <input type="text"
-            onChange={(e) => setInputB((e.target.value))}/>
+            value={taskInput}
+            onChange={(e) => setTasksInput((e.target.value))}/>
 
-            <div>{inputA}</div>
-            <div>{inputB}</div>
+            <div>{taskInput}</div>
 
             <button type="submit">submit</button>
     </form>
 
         <ul>
-            {Names.map((name, index) => (
-                <li key={index}>{name}</li>
+            {tasks.map((task) => (
+                <li key={task.id}>{task.name}, {(task.completed) ? 'done' : 'not done'}</li>
             ))}
         </ul>
     </>
