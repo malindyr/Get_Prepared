@@ -1,5 +1,6 @@
 import { useState } from "react";
 import React from 'react'
+import Names from "./Names";
 
 
 const Example = () => {
@@ -9,6 +10,10 @@ const Example = () => {
 
     const handleChange = (e) => {
         setInputA(e.target.value);
+    }
+
+    const getNames = () => {
+
     }
 
   return (
@@ -21,6 +26,12 @@ const Example = () => {
 
             <div>{inputA}</div>
             <div>{inputB}</div>
+
+        <ul>
+            {Names.map((name, index) => (
+                <li key={index}>{name}</li>
+            ))}
+        </ul>
     </>
   )
 }
