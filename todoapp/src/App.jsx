@@ -1,14 +1,9 @@
-import { useState } from 'react'
-import ToDoList from './components/ToDoList'
+import React from 'react'
+import Example from './components/example'
 
-
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
-    <>
-      <ToDoList/>
-    </>
+    <Example/>
   )
 }
 
