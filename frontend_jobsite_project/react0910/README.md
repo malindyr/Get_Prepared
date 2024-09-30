@@ -45,6 +45,6 @@ Some challenges I encountered included managing form state and properly handling
 - **npm run server**: To run the mock API for simulating backend requests.
 - **tailwind**: For styling of components.
 
-## **Challenges and Future Enhancements**
+
 
 
