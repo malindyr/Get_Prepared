@@ -33,8 +33,9 @@ const Example = () => {
         setTasksInput('');       
     }
 
-    const doneTask = (e, id) => {
-
+    const doneTask = (id) => {
+        const finishedTask = 
+        setFinishTask()
     }
 
     useEffect(() => {
@@ -58,7 +59,7 @@ const Example = () => {
         <ul>
             {tasks.map((task) => (
                 <>
-                <li key={task.id}><input type="checkbox" onclick={finishTask}/>
+                <li key={task.id}><input type="checkbox" onclick={doneTask(task.id)}/>
                  {task.name}, {(task.completed) ? 'done' : 'not done'}</li>
                 
                 </>
