@@ -5,7 +5,20 @@ import React from 'react'
 const Example = () => {
 
     const [taskInput, setTasksInput] = useState('');
-    const [tasks, setTasks] = useState([])
+    const [finishTask, setFinishTask] = useState();
+    const [tasks, setTasks] = useState([
+            {name: 'Paint wall',
+               id: 1,
+               completed: false,
+            },
+            {name: 'Vacuum',
+               id: 2,
+               completed: false,
+            },
+            {name: 'Make lunch',
+               id: 3,
+               completed: false,
+            }]);
 
 
     const onSubmit = (e) => {
@@ -18,6 +31,10 @@ const Example = () => {
         }
         setTasks([...tasks, newTask])
         setTasksInput('');       
+    }
+
+    const doneTask = (e, id) => {
+
     }
 
     useEffect(() => {
@@ -40,7 +57,11 @@ const Example = () => {
 
         <ul>
             {tasks.map((task) => (
-                <li key={task.id}>{task.name}, {(task.completed) ? 'done' : 'not done'}</li>
+                <>
+                <li key={task.id}><input type="checkbox" onclick={finishTask}/>
+                 {task.name}, {(task.completed) ? 'done' : 'not done'}</li>
+                
+                </>
             ))}
         </ul>
     </>
