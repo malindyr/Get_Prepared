@@ -1,15 +1,12 @@
 #include <iostream>
+#include "Person.h"
+
 using namespace std;
 
 int main() {
-	int x;
-	int y;
 
-	cout << "enter a number" << endl;
-	cin >> x;
-	cin >> y;
-	cout << x << endl;
-	cout << y << endl; 
-	cout << x + y << endl;
+	Person p1("Malin", 22);
+	p1.displayInfo();
 
+	return 0;
 }
