@@ -1,11 +1,12 @@
 #include "Person.h"
 #include <iostream>
+using namespace std;
 
-Person::Person(std::string name, int age) {
+Person::Person(string name, int age) {
 	this->name = name;
 	this->age = age;
 }
 
 void Person::displayInfo() {
-	std::cout << "Name: " << name << ", Age: " << age << std::endl;
+	cout << "Name: " << name << ", Age: " << age << endl;
 }

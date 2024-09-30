@@ -3,15 +3,16 @@
 #define PERSON_H
 
 #include <string>
+using namespace std;
 
 class Person
 {
 public : 
-	Person(std::string name, int age);
+	Person(string name, int age);
 	void displayInfo();
 
 private : 
-	std::string name;
+	string name;
 	int age;
 };
 
